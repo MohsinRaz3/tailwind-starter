@@ -1,5 +1,4 @@
 import React from 'react'
-
 export default function page({ params }: { params: { services: string } }) {
     return (
         <div><h1 className='text-xl'>Services' Page</h1>
