@@ -39,6 +39,24 @@
     .icon-text {
       @apply font-bold text-lg;
     }
+    /* flex directiom */
+    .wrapper {
+      @apply bg-white w-80 mt-16 mx-auto rounded-md text-center p-10;
+      height: 28rem;
+    }
+    .link {
+      @apply block mt-4 py-2 px-4 rounded-md border border-cyan-500;
+    }
+    .login-link {
+      @apply bg-cyan-500 text-white;
+    }
+
+    /* Card */
+    
+  
+    .card span {
+      @apply font-bold text-lg;
+    }
   }
 
 
